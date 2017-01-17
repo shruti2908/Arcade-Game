@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* Styles */
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #333;
+}
+body {
+    text-align: center;
+    background-image: url("image.jpg"); 
+}
+
+header {
+	text-align: center;
+}
+
+h1{
+	font-size: 80px;
+	margin-top: 50px;
+	font-weight: 300;
+	color: #09c;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight:300;
+	margin: 30px auto 10px auto;
+	width: 600px;
+}
+ul{
+	list-style-type: none;
+	text-align: left;
+	width: 400px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+#score,
+#life,
+#timer,
+#try-again,
+#game-board{
+	display: none;
+	margin: 20px 30px;
+	font-size: 30px;
+	font-weight: 300;
+}
+#instruction{
+	margin-bottom:30px;
+}
+button {
+	font-size: 25px;
+	font-weight:300;
+	color: #fff;
+	background-color: #09c;
+	padding: 10px 20px;
+	border:0;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #14A7D8;
+}
